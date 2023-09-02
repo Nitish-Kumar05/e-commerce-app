@@ -1,8 +1,18 @@
-import React from 'react'
 
-const Product = () => {
+const Product = (props) => {
+    const { id, productName, price, productImage } = props.data
     return (
-        <div>Product</div>
+        <div className='product' >
+            <img src={productImage} alt='product-img' />
+            <div>
+                <p>
+                    <strong>{productName}</strong>
+                </p>
+                <p>
+                    ${price}*
+                </p>
+            </div>
+        </div>
     )
 }
 
