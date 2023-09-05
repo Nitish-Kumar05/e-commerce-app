@@ -2,6 +2,8 @@
 
 This is a simple React e-commerce application developed as part of my React course assignment. The app allows users to browse products, add items to their cart, and view the total price of their selected items in the cart.
 
+![Screenshot_20230905_082433](https://github.com/Nitish-Kumar05/e-commerce-app/assets/141276983/971ab614-c9d0-4a1d-87d0-91425520357b)
+
 
 ## Features
 - Browse a list of available products.
